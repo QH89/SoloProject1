@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Webapp Demo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <header class="headerBar">
+            <nav>
+                <a class="logo">M</a>
+                <a href="index.html" class="menu">About</a>
+                <a href="demo.html" class="menu">Demo</a>
+            </nav>
+            <h1 class="boldTitle">
+                Your space for productivity.
+            </h1>
+            <p class="boldPara">
+                Manage your deadlines.
+            </p>
+            <div>
+                <a href="demo.html">
+                    <button class="launchButton">
+                        Launch it now!
+                    </button>
+                </a>
+            </div>
+            <p class="para">
+                3000+ rate 5 stars.
+            </p>
+        </header>
+        <div class="content">
+            <h2 class="contentWord">
+                "I use the todo-list to manage your daily tasks! Now I got an A this Spring for math,
+                despite the fact I never really understand anything about calculating. By the way, something
+                 completely irrelevant, may I have my grass and rice behind you now?" - Mr. Goose
+            </h2>
+            <img src="swan.jpg" style="width:50%" alt="">
+        </div>
+        <div class="content">
+            <h3 class="contentWord">
+                "This device saved my life! I have never had something this good ever since that kind lady bought me a
+                whole cooked chicken--What do you mean that this device is NOT FOR EAT? No wonder it tastes flavorless.
+                " - The white cat
+            </h3>
+            <img src="crying%20cat%20meme.jpeg" style="width:50%" alt="">
+        </div>
+
+        <div class="content">
+            <button class='hiddenButton' onclick="showHidden()">See hidden content</button>
+            <div id="hiddenMeme" style ="display: none" class="hiddenMeme">
+                <h3 class="contentWord">
+                    "How did you find me? Please don't tell the interviewer. I won't endorse something I have never
+                     used!" - Anonymous giraffe
+                </h3>
+                <img src="giraf.jpeg" style="width:50%" alt="">
+            </div>
+        </div>
+        <ul class="checkList">
+            <li>
+                this is a checklist
+                <!--An image of tick to be imported to show check list-->
+            </li>
+        </ul>
+    </div>
+    <footer class="footers">
+        <nav>
+            <div>
+                <h4>
+                    Connect
+                </h4>
+                <a class = "footerMenu" href="time.html">Time</a>
+            </div>
+        </nav>
+        <div>
+            <a class="footerMenu" href="privacy.html">Term Of Use</a>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>

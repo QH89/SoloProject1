@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function</title>
+    <style>
+        .headerDemo{
+            background: url("landingPageBackground.jpg");
+            background-size: cover;
+            border-radius: 15px;
+            padding: 40px;
+        }
+        .task{
+            width: 150px;
+            border: none;
+            position: absolute;
+            border-radius: 10px;
+            background: #F9F7F7;
+            margin: auto;
+            display: block;
+            box-shadow: 2px 2px 2px 2px #C7C8CC ;
+            align-items: center;
+        }
+        .drag{
+            width: 150px;
+            height: 30px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            text-align: center;
+        }
+        .logoDemo{
+            background: linear-gradient(#3F72AF, #112D4E);
+            color: #F9F7F7;
+            font-size:20px;
+            height: 19px;
+            width: 19px;
+            padding: 6px;
+            border-radius: 50%;
+            display: inline-block;
+            align-content: center;
+            font-weight: bold;
+        }
+        .menuDemo{
+            color: #F9F7F7;
+            text-align: left;
+            height: 10%;
+            width: 100%;
+            font-size: 20px;
+            padding-left: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .titleDemo{
+            text-align: center;
+            color: #F9F7F7;
+        }
+        .bodyDemo{
+            border-radius: 10px;
+            background: #F9F7F7;
+            height: 80%;
+            margin: auto;
+            display: block;
+            box-shadow: 2px 2px 2px 2px #C7C8CC ;
+        }
+        .postContent{
+            text-align: center;
+        }
+    </style>
+</head>
+    <div>
+        <header class="headerDemo">
+            <nav>
+                <a class="logoDemo">M</a>
+                <a class="menuDemo" href="index.html">About</a>
+                <a class="menuDemo" href="demo.html">Demo</a>
+            </nav>
+            <h1 class="titleDemo">
+                This is a demo of todo list webapp.
+            </h1>
+
+        </header>
+    </div>
+<body class="bodyDemo">
+    <h1>
+        Todo list post-its
+    </h1>
+    <div class="task">
+        <div class="drag">DragBar</div>
+        <label for="event"></label>
+        <input class="postContent" id="event" type="text">
+        <p class="postContent">This is a post it.</p>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>
